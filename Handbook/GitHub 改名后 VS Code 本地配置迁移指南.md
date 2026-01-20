@@ -44,7 +44,7 @@
 
 这是最关键的一步。虽然 GitHub 会对旧链接进行重定向，但为了保险起见，建议把本地项目的远程地址改为新地址。
 
-**注意：你需要对每一个正在开发的本地项目（比如你的雨伞项目）都执行一次这个操作。**
+**注意：你需要对每一个正在开发的本地项目都执行一次这个操作。**
 
 1. 在 VS Code 打开你的项目文件夹。
 
@@ -66,7 +66,7 @@
    # 格式：git remote set-url origin https://github.com/新名字/项目名.git
    
    # 示例：
-   git remote set-url origin https://github.com/NewUsername/CampusRainHub.git
+   git remote set-url origin https://github.com/NewUsername/NewProjectName.git
    ```
 
 4. 再次输入 `git remote -v` 确认地址已更新。
@@ -99,3 +99,4 @@ VS Code 会缓存你的 GitHub 登录凭证。改名后，有时会导致推送�
 
 
 - **A:** 变了。如果你有部署静态网页，现在的访问地址变成了 `https://新名字.github.io`。
+
